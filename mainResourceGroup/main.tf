@@ -12,7 +12,7 @@ provider "azurerm" {
   features {}
 }
 module "ResourceGroup"{
-    source = "./ResourceGroup"
-    base_name = "rg05"
+    source = "../ResourceGroup"
+    base_nam = "rg09"
     location = "east us"
 }
